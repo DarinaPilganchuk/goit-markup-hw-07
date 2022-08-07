@@ -1,0 +1,25 @@
+.logo-link {
+    margin-right: 94px;
+    color: #000000;
+    font-family: var(--secondary-font), sans-serif;
+    font-size: 26px;
+    line-height: 1.2
+}
+
+.logo-accent {
+    color: var(--accent-color);
+}
+
+.logo-accent-bl {
+    color: #FFFFFF;
+}
+.logo-link--address {
+    font-family: var(--secondary-font), sans-serif;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    display: flex;
+    padding-bottom: 20px;
+}

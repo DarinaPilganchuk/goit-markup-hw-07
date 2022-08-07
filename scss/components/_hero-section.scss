@@ -1,0 +1,33 @@
+.overlay {
+    height: 600px;
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg)
+}
+
+/*Hero*/
+.hero.section {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.hero__title {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.37;
+    letter-spacing: 0.06em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hero__container.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

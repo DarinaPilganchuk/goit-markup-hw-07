@@ -1,0 +1,29 @@
+.footer {
+    background-color: var(--dark-bg-cl);
+}
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.address {
+    display: block;
+    align-items: center;
+    margin-right: 70px;
+    font-style: normal;
+    color: #FFFFFf;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+
+}
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-address {
+    display: flex;
+    flex-direction: column;
+}
