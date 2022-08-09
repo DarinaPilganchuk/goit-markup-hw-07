@@ -1108,6 +1108,12 @@ social-links team list
   color: #FFFFFF;
 }
 
+.projects-list__item-flex-element:focus,
+.projects-list__item-flex-element:hover {
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .projects-overlay {
   position: absolute;
   background-color: rgba(33, 150, 243, 0.9);
@@ -1117,12 +1123,10 @@ social-links team list
   height: 100%;
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
-  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform;
-  transition: transform, 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform, 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform;
-  overflow: hidden;
-  opacity: 0;
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .projects-element {
